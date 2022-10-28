@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import "parts/_cards.scss";
+@import "parts/_code.scss";
+@import "parts/_header.scss";
+@import "parts/_image.scss";
+@import "parts/misc.scss";
+@import "parts/table.scss";
+@import "parts/tags.scss";
+
+:root {
+  /* Used for: block comment, hr, ... */
+  --border-color: var(--bg-1);
+
+  --background-color:#29292e;
+  --navbar-color:#222226;
+  --secondary-color:#1b1b20;
+  --highlights: #b35a5a;
+  --links: #449cf8;
+  --text-color: #f2f2f2;
+  --code: #ef476f;
+  --border-color: #111;
+  --light-border-color: rgba(255, 255, 255, 0.1);
+  --max-layout-width:900px;
+  --normal-layout-width:600px;
+  --medium-layout-width:350px;
+  --small-layout-width:200px;
+
+  font-family: 'Roboto Mono', monospace;
+  line-height: 180%;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6em;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.content {
+  max-width: 944px;
+  margin: 0 auto;
+  padding: 0 24px;
+  word-wrap: break-word;
+}
+
+@media all and (min-width:640px) {
+  html {
+    font-size: 16.5px;
+  }
+}
+
+@media all and (min-width:720px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media all and (min-width:960px) {
+  html {
+    font-size: 18px;
+  }
+}
