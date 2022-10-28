@@ -38,14 +38,14 @@ header {
   .navbar{
     max-width: var(--medium-layout-width);
   }
-  .nav-title{
-    margin:0 auto;
-  }
 }
 @media only screen and (max-width:300px) {
   .navbar{
     max-width: var(--small-layout-width);
   }
+}
+.nav-navs{
+  margin: 0 auto
 }
 .nav-links{
   text-decoration: none;

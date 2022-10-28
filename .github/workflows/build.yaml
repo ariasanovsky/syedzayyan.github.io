@@ -25,6 +25,10 @@ jobs:
         | sudo tar xzf - -C /usr/local/bin
     - name: Generate HTML
       run: zola build
+    - name: Generate CNAME
+      run: | 
+        touch CNAME
+        echo 'syedzayyan.com' > CNAME
     - name: Deploy to gh-pages
       if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.SOURCE_BRANCH) }}
       uses: peaceiris/actions-gh-pages@v3
