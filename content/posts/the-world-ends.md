@@ -1,6 +1,9 @@
 +++
 title="The world ends?"
 date="2022-02-25T23:00:01.000Z"
+
+[taxonomies] 
+tags = ["thoughts"]
 +++
 
 As I sit across my laptop screen, panicking and being anxious about the point of existence, there are people with their worlds toppling over. To be fair I am anxious as a knock-on effect. Now if we have learned anything from the 1940s, you don't even need balls to deharmonise the world. One ball is just enough. But we are human beings and we do not learn from our blunders. We make them again and again. 1940s was a curious case of identity politics at play and how it takes one psychopath, with a broken sense of identity. We like to classify it into a religion box, perhaps a racial discrimination box but that's what it was - a person with a distorted sense of identity. Is it true for Russia, with a new wave Hitler helmed as the president?

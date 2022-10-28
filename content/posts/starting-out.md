@@ -1,6 +1,9 @@
 +++
 title="Starting Out"
 date="2022-02-18T18:06:01.0000"
+
+[taxonomies] 
+tags = ["thoughts"]
 +++
 Starting out is always harder than you expect. To be fair, continuing to do something is equally harder. Take blogging for example. I have started a couple of times now thinking I would write something or the other but I never stick to it. However, I did make a differently designed blog in a different language each time. I did land a freelance gig that way, improving my personal portfolios.
 

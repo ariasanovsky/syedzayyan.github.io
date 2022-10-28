@@ -1,6 +1,9 @@
 +++
 title="A day in London without the tube"
 date="2022-03-04T18:06:01.000Z"
+
+[taxonomies] 
+tags = ["thoughts"]
 +++
 
 Our perception of time is strongly linked to our memories. The more I experience things, the more I feel I have grown as a person and spent more time on this planet. The London tube sort of takes away that experience of traveling on foot or on a bus and seeing the city. I feel this way partly because I use the same line everyday, and probably see the same people. However, no one really looks at each other on the tube, and it's usually me reading a book or listening to heavy metal to drown out the harsh sound of the central line, gazing aimlessly outside the windows as I bob my head to the blast beats. On a bus, I have a window into life on the road and very different sorts of people on the bus itself. On foot it is even more interesting, seeing other people wheeze through into the hustle-bustle.
