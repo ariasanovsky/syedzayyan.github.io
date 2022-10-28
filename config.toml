@@ -11,7 +11,7 @@ highlight_theme = "ayu-dark"
 [extra]
 toc = true
 use_cdn = false
-favicon = "/icon/favicon.png"
+favicon = "/menu_icon/profile_pic.png"
 
 menu = [
     { name = "Projects", url = "/projects", weight = 1, icon = "projects" },
