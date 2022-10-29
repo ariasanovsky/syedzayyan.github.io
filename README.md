@@ -1,3 +1,3 @@
 # My Blog
 
-Everthing in here is powered by Zola.
+Made with anxiety, dry eyes, love and Zola.

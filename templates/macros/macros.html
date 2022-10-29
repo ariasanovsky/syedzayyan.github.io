@@ -169,7 +169,7 @@
         <div class="card-info">
             <h1 class="card-title">
                 {% if page.extra.link_to %}
-                <a href={{ page.extra.link_to }}>{{page.title}}</a>
+                <a rel="noopener noreferrer" target="_blank" href={{ page.extra.link_to }}>{{page.title}}</a>
                 {% else %}
                 <a href={{ page.permalink }}>{{page.title}}</a>
                 {% endif %}

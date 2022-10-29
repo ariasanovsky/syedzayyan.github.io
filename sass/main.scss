@@ -71,6 +71,7 @@ body{
   margin: 0 auto;
   padding: 0 24px;
   word-wrap: break-word;
+  min-height: 80vh;
 }
 @media only screen and (max-width:1000px) {
   .content{
