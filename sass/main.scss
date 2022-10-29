@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
+}
 @import "parts/_cards.scss";
 @import "parts/_code.scss";
 @import "parts/_header.scss";
