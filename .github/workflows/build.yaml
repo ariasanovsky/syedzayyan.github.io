@@ -26,7 +26,7 @@ jobs:
     - name: Generate HTML & CNAME
       run: |
         zola build
-        echo 'your_cutom_domain.online' > ./public/CNAME && gh-pages -d build"
+        echo syedzayyan.com' > ./public/CNAME
     - name: Deploy to gh-pages
       if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.SOURCE_BRANCH) }}
       uses: peaceiris/actions-gh-pages@v3
