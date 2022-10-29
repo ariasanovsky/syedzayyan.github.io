@@ -1,5 +1,7 @@
 base_url = "https://syedzayyan.com"
 title = "Syed Zayyan Masud"
+description = "A personal portfolio/blog website of Syed Zayyan Masud"
+
 generate_feed = true
 compile_sass = true
 minify_html = true
@@ -16,6 +18,7 @@ highlight_theme = "ayu-dark"
 toc = true
 use_cdn = false
 favicon = "/menu_icon/profile_pic.png"
+headerImage = "/menu_icon/profile_pic.png"
 
 menu = [
     { name = "Projects", url = "/projects", weight = 1, icon = "projects.png" },
