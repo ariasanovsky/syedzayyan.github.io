@@ -2,6 +2,8 @@ base_url = "https://syedzayyan.com"
 title = "Syed Zayyan Masud"
 description = "A personal portfolio/blog website of Syed Zayyan Masud"
 
+theme = "shadharon"
+
 generate_feed = true
 compile_sass = true
 minify_html = true
