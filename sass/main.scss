@@ -8,11 +8,22 @@
 @import "parts/table.scss";
 @import "parts/home-banner.scss";
 @import "parts/footer.scss";
+@import "parts/theme-switch.scss";
 
 :root {
-  /* Used for: block comment, hr, ... */
-  --border-color: var(--bg-1);
+  --max-layout-width:900px;
+  --normal-layout-width:600px;
+  --medium-layout-width:350px;
+  --small-layout-width:200px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 180%;
 
+
+  --bg-0: #121212;
+  --bg-1: rgba(255, 255, 255, 5%);
+  --bg-2: rgba(23, 23, 23, 100%);
+  --primary-color: #ef5350;
+  --hover-color: white;
   --background-color:#29292e;
   --navbar-color:#222226;
   --secondary-color:#1b1b20;
@@ -22,13 +33,26 @@
   --code: #ef476f;
   --border-color: #111;
   --light-border-color: rgba(255, 255, 255, 0.1);
-  --max-layout-width:900px;
-  --normal-layout-width:600px;
-  --medium-layout-width:350px;
-  --small-layout-width:200px;
+  --input-back: #4b4a4a;
+  --input-color: #294797;
+}
 
-  font-family: 'Roboto Mono', monospace;
-  line-height: 180%;
+[data-theme="light"] {
+  --bg-0: #fff;
+  --bg-1: #f2f2f2;
+  --bg-2: #fefefe;
+  --primary-color: #ef5350;
+  --hover-color: white;
+  --background-color:#fff;
+  --navbar-color:#e3e3e3;
+  --secondary-color:rgb(158, 158, 158);
+  --text-color: #222226;
+  --border-color: rgb(114, 114, 114);
+  --light-border-color: rgba(255, 255, 255, 0.1);
+  --input-back: #161616;
+  --input-color: #294797;
+  --input-back: rgb(158, 158, 158);
+  --input-color: #fbec48;
 }
 
 html {

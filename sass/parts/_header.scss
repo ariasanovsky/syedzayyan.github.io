@@ -33,6 +33,12 @@ header {
   .navbar{
     max-width: var(--normal-layout-width);
   }
+  .nav-navs{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media only screen and (max-width:600px) {
   .navbar{
@@ -43,9 +49,6 @@ header {
   .navbar{
     max-width: var(--small-layout-width);
   }
-}
-.nav-navs{
-  margin: 0 auto
 }
 .nav-links{
   text-decoration: none;
@@ -70,7 +73,13 @@ header .main {
   /* Otherwise header and menu is too close on small screens*/
   margin-bottom: 10px;
 }
-
+.nav-navs img{
+  border: none;
+}
+.home-title{
+  font-size: 1.6em;
+  color:#ff3344;
+}
 .socials {
   /* flex-child */
   flex-grow: 0;

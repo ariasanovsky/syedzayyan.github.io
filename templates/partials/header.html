@@ -19,22 +19,23 @@
 
     {# Favicon #}
     {% if config.extra.favicon %}
-        <link rel="icon" type="image/png" href={{ config.extra.favicon }} />
+    <link rel="icon" type="image/png" href={{ config.extra.favicon }} />
     {% endif %}
 
 
 
     {# RSS #}
-    <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
-
-    <link rel="stylesheet" type="text/css" href="{{ get_url(path="theme/dark.css") }}"/>
-
-    <link rel="stylesheet" type="text/css" media="screen" href={{ get_url(path="main.css") }} />
+    <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path=" atom.xml",
+        trailing_slash=false) }}">
+    <link rel="stylesheet" type="text/css" media="screen" href={{ get_url(path="main.css" ) }} />
 
 
     {% if config.extra.stylesheets %}
-        {% for stylesheet in config.extra.stylesheets %}
-            <link rel="stylesheet" href="{{ get_url(path=stylesheet) }}">
-        {% endfor %}
+    {% for stylesheet in config.extra.stylesheets %}
+    <link rel="stylesheet" href="{{ get_url(path=stylesheet) }}">
+    {% endfor %}
     {% endif %}
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'" />
+
 </head>

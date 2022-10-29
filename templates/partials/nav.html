@@ -1,14 +1,18 @@
 <header>
     <div class="navbar">
         <div class="nav-title nav-navs">
-            <a style="font-size: 1.6em;color:#ff3344;" class="nav-links" href={{ config.base_url }}>{{ config.title }}</a>
+            <a class="nav-links home-title" href={{ config.base_url }}>{{ config.title
+                }}</a>
         </div>
 
         <nav class="nav-title nav-navs">
             {% for menu in config.extra.menu %}
-                <a class="nav-links" href={{ menu.url }} style="margin-left: 0.7em">
-                    <img alt={{ menu.name }} height="15" width="15" style="border:none" src="/menu_icon/{{ menu.icon }}.png">
-                    {{ menu.name }}</a>
+            <a class="nav-links" href={{ menu.url }}>
+                {%- if menu.icon %}
+                <img alt={{ menu.name }} height="15" width="15"
+                src="/menu_icon/{{ menu.icon }}" />
+                {% endif %}
+                {{ menu.name }}</a>
             {% endfor %}
         </nav>
 
@@ -18,6 +22,14 @@
                 <img alt={{ social.name }} title={{ social.name }} src="/social_icons/{{ social.icon }}.svg">
             </a>
             {% endfor %}
+            <label class="theme-switcher" for="themeswitch">
+                <div class="background"></div>
+                <input type="checkbox" id="themeswitch">
+                <div class="switch">
+                    <img class="moon" src="/menu_icon/moon.png">
+                    <img class="sun" src="/menu_icon/sun.png">
+                </div> 
+            </label>
         </nav>
     </div>
 </header>
