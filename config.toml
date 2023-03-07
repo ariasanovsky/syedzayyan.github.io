@@ -14,7 +14,7 @@ taxonomies = [
 
 [markdown]
 highlight_code = true
-highlight_theme = "ayu-dark"
+highlight_theme = "css"
 
 [extra]
 toc = true
