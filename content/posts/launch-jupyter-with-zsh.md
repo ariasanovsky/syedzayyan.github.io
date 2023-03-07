@@ -1,6 +1,6 @@
 +++
 title="Launching A Jupyter Notebook using a ZSH/Bash script"
-date="2022-03-04T18:06:01.000Z"
+date="2023-03-04T18:06:01.000Z"
 
 [taxonomies] 
 tags = ["rants", "tutorial"]
