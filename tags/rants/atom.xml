@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Syed Zayyan Masud - rants</title>
+	<subtitle>A personal portfolio&#x2F;blog website of Syed Zayyan Masud</subtitle>
+	<link href="https://syedzayyan.com/tags/rants/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://syedzayyan.com"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-03-04T18:06:01+00:00</updated>
+	<id>https://syedzayyan.com/tags/rants/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Launching A Jupyter Notebook using a ZSH&#x2F;Bash script</title>
+		<published>2023-03-04T18:06:01+00:00</published>
+		<updated>2023-03-04T18:06:01+00:00</updated>
+		<link rel="alternate" href="https://syedzayyan.com/posts/launch-jupyter-with-zsh/" type="text/html"/>
+		<id>https://syedzayyan.com/posts/launch-jupyter-with-zsh/</id>
+		<content type="html">&lt;h3 id=&quot;the-zsh-script&quot;&gt;The ZSH script&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;shell&quot; class=&quot;language-shell z-code&quot;&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;#!&#x2F;bin&#x2F;zsh
+
+cd Desktop&#x2F;mphil&#x2F;prog
+source a1renv&#x2F;bin&#x2F;activate
+python3 -m ipython kernel install --name=a1renv
+jupyter notebook
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;^ That there is the script&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;why&quot;&gt;Why?&lt;&#x2F;h3&gt;
+&lt;p&gt;I wanted seperate environments for my different notebooks so that they did not fight with my existing installations.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;explanation-of-the-script&quot;&gt;Explanation of the script&lt;&#x2F;h3&gt;
+&lt;p&gt;The directory is change to somewhere I want. The environment is activated. The python kernel is told that I have an environment, but I guess that is verbose and not needed. And then the Jupyter notebook is launched.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;rant&quot;&gt;Rant!&lt;&#x2F;h3&gt;
+&lt;p&gt;The rant tag is there for a reason. Python package management is near bollocks. It&#x27;s at least better than C (I worked with Arduino and it felt like pain) but using a bit of Rust, Cargo is a God-Send. I just don&#x27;t get how hard it would be to rejig the package manager. Virtual Environments that conflict with something else globally. Like why is there a global package area and a local virtual environment and if they want to talk to each other why do I need to edit a random text file I have no idea about taking help from a random Medium article and it somehow all works. But anyways. Python is supposed to be an &amp;quot;easy&amp;quot; language and is very good for prototyping things on the fly. I just hoped there were better libraries for Rust or something else so that after protyping.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
